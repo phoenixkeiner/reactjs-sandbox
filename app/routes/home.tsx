@@ -11,9 +11,9 @@ export function meta({}: Route.MetaArgs) {
 
 export default function Home() {
   return (
-    <>
-      <Navbar />
-      <Welcome />
-    </>
+      <div className="bg-stone-400">
+        <Navbar />
+        <Welcome />
+      </div>
   );
 }
